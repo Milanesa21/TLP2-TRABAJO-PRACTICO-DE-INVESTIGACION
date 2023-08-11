@@ -9,16 +9,17 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>      
     <div class="container-fluid py-5 px-md-5 col">
-        <header class="d-flex align-items-center justify-content-between">
-            <a class="btn btn-primary" href="/create">Agregar Nueva Imagen</a>
+        <header class="d-flex align-items-center justify-content-center">
+            <a class="btn btn-danger" href="/create">Agregar Nueva Imagen</a>
         </header>
         <main class="col h-100">
-            <p>IMAGENES ALOJADAS DE FORMA LOCAL</p>
-            <section class="row" id="galeriaLocal">                
+            <br></br>
+            <p class="text-center">IMAGENES GUARDADAS LOCALMENTE</p>
+            <section class="row text-center" id="galeriaLocal">                
                 
             </section>
-            <p>IMAGENES ALOJADAS EN CLOUDINARY</p>
-            <section class="row mt-5" id="galeriaRemota">                
+            <p class="text-center">IMAGENES GUARDADAS EN CLOUDINARY</p>
+            <section class="row mt-5 text-center" id="galeriaRemota">                
                 
             </section>
         </main>
@@ -26,5 +27,6 @@
     <%- include('../layouts/footer'); %>
     <script src="/js/index.js"></script>
 </body>
+
 
 </html>

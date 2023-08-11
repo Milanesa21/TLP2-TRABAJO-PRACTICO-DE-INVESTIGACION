@@ -24,6 +24,7 @@ npm install
 
 Variables de entorno:
 ```bash
+APP_URL=
 PORT=
 DB_NAME=
 DB_USER=
@@ -31,16 +32,9 @@ DB_PASSWORD=
 DB_HOST=
 DB_PORT=
 DB_DIALECT=
-```
 
-Configurar en el package.json
-```bash
- "scripts": {
-    "dev" : "nodemon app.js"
-  }
-```
-
-Y para ejecutar el proyecto en modo desarrollo:
-```bash
-npm run dev
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+CLOUDINARY_URL=
 ```
